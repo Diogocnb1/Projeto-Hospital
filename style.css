@@ -1,0 +1,20 @@
+ @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(90deg, #0098B9 0%, rgba(255, 255, 255, 0) 100%);
+    font-size: 100%;
+}
+
+.cabecalho {
+   display: flex; 
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+}
