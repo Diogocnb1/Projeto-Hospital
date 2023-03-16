@@ -8,7 +8,7 @@
  }
 
  body {
-     background: linear-gradient(90deg, #0098B9 0%, rgba(255, 255, 255, 0) 100%);
+     background: white;
      font-size: 100%;
  }
 
@@ -18,6 +18,7 @@
      align-items: center;
      justify-content: space-around;
      padding: 24px;
+     background-color: lightcyan;
  }
 
  .cabecalho-imagem {
@@ -38,7 +39,7 @@
  }
 
  .conteudo {
-     border-top: 0.4px solid white;
+     border-top: 0.4px solid lightskyblue;
      margin-bottom: 48px;
  }
 
@@ -47,15 +48,10 @@
      flex-direction: row;
      align-items: center;
      justify-content: space-around;
-     margin-top: 40px;
+     background-color: lightcyan;
+     padding-top: 48px;
  }
 
- .conteudo-principal-imagem {
-     height: 250px;
-     width: 250px;
-     display: flex;
-
- }
 
  .conteudo-principal-escrito {
      display: flex;
@@ -71,19 +67,63 @@
  }
 
  .conteudo-principal-escrito-subtitulo {
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: white;  
+     font-family: 'Sarala', sans-serif;
+     font-weight: 400;
+     font-size: 24px;
+     color: red;
  }
+
  .conteudo-principal-escrito-botao {
      background-color: palegreen;
      width: 200px;
      height: 60px;
      border-radius: 20px;
      font-family: 'Sarala', sans-serif;
-     font-weight: 400;
+     font-weight: bold;
      font-size: 20px;
-     color: white;
-     margin-bottom: 40px;  
+     color: black;
+     margin-bottom: 40px;
+ }
+
+ .conteudo-principal-escrito-botao:hover {
+     background-color: rgba(61, 47, 36, 0.3);
+ }
+
+ .conteudo-principal-imagem {
+     height: 430px;
+     width: 430px;
+ }
+
+ .conteudo-secundario {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 24px;
+     border-top: 0.4px solid lightskyblue;
+ }
+
+ .conteudo-secundario-titulo {
+     font-family: 'Righteous', cursive;
+     font-size: 40px;
+     color: red;
+     padding-top: 48px;
+     margin-bottom: 20px;
+ }
+
+ .conteudo-secundario-paragrafo {
+     font-family: 'Sarala', sans-serif;
+     font-weight: 300;
+     font-size: 24px;
+
+ }
+
+ .rodape {
+     padding: 32px;
+     border-top: 0.4px solid lightskyblue;
+ }
+
+ .rodape-imagem {
+     height: 150px;
+     display: block;
+     margin: 0 auto;
  }
